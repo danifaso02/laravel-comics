@@ -1,0 +1,8 @@
+.hero{
+    &_img{
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+    object-position: top;
+    }
+}

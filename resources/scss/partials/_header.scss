@@ -1,0 +1,38 @@
+.header {
+    &_top{
+        background-color: $main-color;
+        a{
+        color: #fff;
+        text-decoration: none;
+        }
+    }
+
+    &_bottom{
+        .main-nav{
+            height: 100%;
+            &_list{
+                height: 100%;
+                list-style: none;
+                display: flex;
+                margin-bottom: 0;
+    
+                li{
+                    padding: 2rem 1.5rem;
+                    border-bottom: .1875rem transparent solid;
+                    a{
+                        text-decoration: none;
+                        color: inherit;
+                        font-size: 1.25rem;
+                        text-transform: uppercase;
+                    }
+                    &.active{
+                        border-color: $main-color;
+                        a{
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
